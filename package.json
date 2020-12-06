@@ -1,0 +1,41 @@
+{
+  "name": "valiplanssi",
+  "version": "0.0.0",
+  "description": "välivitunplanssi",
+  "homepage": "",
+  "author": {
+    "name": "superjuho",
+    "email": "puurunen.tuho@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "aikapanel",
+        "title": "Aikapanel",
+        "width": 2,
+        "file": "aikapanel.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "valiplanssi.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "license": "MIT"
+}
